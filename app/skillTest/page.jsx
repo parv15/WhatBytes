@@ -4,7 +4,7 @@ import SkillCard from "../../components/SkillCard";
 import SkillStatus from "../../components/SkillStatus";
 import ComparisonGraph from "../../components/ComparisonGraph";
 import QuestionAnalysis from "../../components/QuestionAnalysis";
-import SyllabusWiseAnalysis from "../../components/SyllabusWiseData";
+import SyllabusWiseAnalysis from "../../components/SyllabusWiseAnalysis";
 import EditPopUp from "../../components/EditPopUp";
 
 const Page = () => {
