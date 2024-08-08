@@ -35,11 +35,11 @@ const MainLayout = ({ children }) => {
         </div>
 
         {/* Sidebar for Desktop */}
-        <div className="hidden md:flex md:flex-col md:w-1/6 md:border-r md:border-gray-300 md:h-full">
+        <div className="hidden md:flex md:flex-col md:w-1/6 md:border-r md:border-gray-300 md:h-screen">
           <ul className="space-y-2 p-4">
             <li className="flex items-center p-2 hover:bg-gray-100 hover:text-blue-800 rounded-r-xl">
               <VscGraph className="mr-2" />
-              <Link href="/">DashBoard</Link>
+              <Link href="/Dashboard">DashBoard</Link>
             </li>
             <li className="flex items-center p-2 hover:bg-gray-100 hover:text-blue-800 rounded-r-xl">
               <SlBadge className="mr-2" />
@@ -47,7 +47,7 @@ const MainLayout = ({ children }) => {
             </li>
             <li className="flex items-center p-2 hover:bg-gray-100 hover:text-blue-800 rounded-r-xl">
               <MdOutlineContactPage className="mr-2" />
-              <Link href="/">Internships</Link>
+              <Link href="/Internship">Internships</Link>
             </li>
           </ul>
         </div>
