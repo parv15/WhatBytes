@@ -21,15 +21,15 @@ const MainLayout = ({ children }) => {
           <ul className="flex justify-around p-2">
             <li className="flex flex-col items-center hover:text-blue-800">
               <VscGraph className="text-2xl" />
-              <Link href="/">DashBoard</Link>
+              <Link href="/Dashboard">DashBoard</Link>
             </li>
             <li className="flex flex-col items-center hover:text-blue-800">
               <SlBadge className="text-2xl" />
-              <Link href="/">Skill Test</Link>
+              <Link href="/skillTest">Skill Test</Link>
             </li>
             <li className="flex flex-col items-center hover:text-blue-800">
               <MdOutlineContactPage className="text-2xl" />
-              <Link href="/">Internships</Link>
+              <Link href="/Internship">Internships</Link>
             </li>
           </ul>
         </div>
